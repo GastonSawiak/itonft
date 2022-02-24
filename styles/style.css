@@ -5,10 +5,26 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     background: linear-gradient(#1b1b1b,#000000, #1b1b1b);
 }
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 12.5px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #8100d6;
+    transition: 2s;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(131, 18, 65);
+}
+/*scrollbar*/
 
 /*SIDEBAR*/
 #sideNav{
@@ -57,6 +73,8 @@ nav ul li a:hover{
 }
 /*SIDEBAR*/
 
+/*#################################################*/
+
 /*LANDING HOME*/
 #landing-home {
     color: #fff;
@@ -92,5 +110,39 @@ nav ul li a:hover{
 #carousel .carousel-item img {
     width: 20%;
 }
+.carousel-item:hover {
+    transform: scale(0.95);
+}
 /*Carousel*/
 
+/*#################################################*/
+
+/*Collection*/
+
+.collection-title {
+    color: #fff;
+    text-align: center;
+    margin: 150px;
+}
+.cards {
+    justify-content: center;
+    margin: 30px;
+    gap: 10%;
+}
+.card {
+    margin-bottom: 25px;
+    transition: 500ms;
+}
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 15px 0px 10px #8100d6, -15px 0px 10px #8100d6;
+}
+.card-img-top {
+    margin-top: 5px;
+}
+.btn-dark{
+    transition: 400ms;
+}
+.btn-dark:hover {
+    transform: scale(0.95);
+}
