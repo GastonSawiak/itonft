@@ -103,10 +103,11 @@ nav ul li a:hover{
     z-index: 2;
     bottom: 0;
     right: 0;
-    padding: 20px;
-    margin: 10px;
-    background-color: rgba(131, 18, 65, 0.5);
+    padding: 15px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
+    width: 80px;
 }
 /*LANDING HOME*/
 
@@ -118,6 +119,7 @@ nav ul li a:hover{
 }
 .carousel-item {
     margin: 10px;
+    transition: transform 1s ease;
 }
 #carousel .carousel-item img {
     width: 20%;
@@ -180,4 +182,56 @@ nav ul li a:hover{
 }
 .learn-img1 img{
     width: 50%;
+}
+
+/*#####################################################*/
+
+/*FAQS*/
+.faqs-title {
+    color: #fff;
+    text-align: center;
+    margin: 150px;
+}
+.accordionrow {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.accordion-item {
+    background-color: #000000;
+}
+.accordion-body {
+    background-color: #ffffff;
+}
+.faq-subtitle {
+    text-align: center;
+    color: #8100d6;
+    font-size: 5rem;
+    margin: 50px;
+}
+
+/*#################################################*/
+
+/*CONTACTO*/
+
+.contact-title {
+    text-align: center;
+    color: #fff;
+    margin: 150px;
+}
+
+.form {
+    justify-content: center;
+}
+.form-label1 {
+    color: #8100d6;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+/*##################################################*/
+
+/*Footer*/
+
+footer {
+    margin-top: 10%;
 }
