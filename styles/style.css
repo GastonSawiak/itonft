@@ -305,6 +305,18 @@ nav ul li a:hover {
           animation: glitch2 0.5s infinite;
 }
 
+.iframeeth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 2rem 0.2rem 2rem 0.2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /*#################################################*/
 /*CONTACTO*/
 .contact-title {
