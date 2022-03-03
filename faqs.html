@@ -17,6 +17,11 @@
     <!--Link Tags-->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet" crossorigin="anonymous">
+    
 </head>
 
 <body>
@@ -47,67 +52,65 @@
         <!--Div para centrar el acordeon-->
         <div class="accordionrow row">
         <!--Div para centrar el acordeon-->
-        <div class="accordion col-10" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                Como comprar mi NTF?
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                <div class="accordion-body">
-                    El panqueque (Arg., Chil., Ec., Per., Ur.), hotcake (Méx.), pancake (CR., Nic., Pan., PR, CC Co.), panqueca (Ven.), arepuela (Resto de Co.) o tortita (Esp.) es una torta plana, redonda y salada o dulce, cuya masa contiene leche y está levadurizada. A veces también puede incluir especias, esencias o extractos (canela, por ejemplo). Se considera un desayuno típico americano, aunque también se consume internacionalmente en la merienda, como aperitivo o postre.
+            <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Como comprar mi NTF?
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        El panqueque (Arg., Chil., Ec., Per., Ur.), hotcake (Méx.), pancake (CR., Nic., Pan., PR, CC Co.), panqueca (Ven.), arepuela (Resto de Co.) o tortita (Esp.) es una torta plana, redonda y salada o dulce, cuya masa contiene leche y está levadurizada. A veces también puede incluir especias, esencias o extractos (canela, por ejemplo). Se considera un desayuno típico americano, aunque también se consume internacionalmente en la merienda, como aperitivo o postre.
 
-                    Aunque también es llamado crêpe o crep, ésta es una preparación francesa similar que se diferencia, entre otras cosas, en no contener levadura y cocinarse a fuego lento. Además, el crêpe es más fino y de mayor diámetro.
-                    
-                    Existen muchas variantes en diferentes culturas y países, no solo en los ingredientes sino en la forma de ser servido. Su tiempo de vida es de 3 a 4 días si se guarda en refrigerador, en el congelador dura de 4 a 6 meses.
-                    
-                    El Martes de Carnaval también se denomina «Martes del Pancaque».
+                        Aunque también es llamado crêpe o crep, ésta es una preparación francesa similar que se diferencia, entre otras cosas, en no contener levadura y cocinarse a fuego lento. Además, el crêpe es más fino y de mayor diámetro.
+                        
+                        Existen muchas variantes en diferentes culturas y países, no solo en los ingredientes sino en la forma de ser servido. Su tiempo de vida es de 3 a 4 días si se guarda en refrigerador, en el congelador dura de 4 a 6 meses.
+                        
+                        El Martes de Carnaval también se denomina «Martes del Pancaque».
+                    </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-            <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Que WALLETS estan disponibles para comprar?
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                <div class="accordion-body">
-                    La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que tradicionalmente se cubre con salsa de tomate y mozzarella y se hornea a alta temperatura en un horno de leña. El lugar donde se venden pizzas se denomina «pizzería» y al obrador, «pizzero» (pizzaiolo en italiano). Aunque se considera que su origen está en la gastronomía italiana, particularmente la napolitana, su consumo está extendido a casi todos los países del mundo con diversas variantes locales, que incorporan distintos ingredientes para cubrir la masa. Junto con la hamburguesa, la pizza está considerada la comida más difundida del mundo,como consecuencia de la diáspora italiana que se estableció en América a lo largo del siglo xx principalmente en Nueva York, Buenos Aires o Chicago.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Que WALLETS estan disponibles para comprar?
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que tradicionalmente se cubre con salsa de tomate y mozzarella y se hornea a alta temperatura en un horno de leña. El lugar donde se venden pizzas se denomina «pizzería» y al obrador, «pizzero» (pizzaiolo en italiano). Aunque se considera que su origen está en la gastronomía italiana, particularmente la napolitana, su consumo está extendido a casi todos los países del mundo con diversas variantes locales, que incorporan distintos ingredientes para cubrir la masa. Junto con la hamburguesa, la pizza está considerada la comida más difundida del mundo,como consecuencia de la diáspora italiana que se estableció en América a lo largo del siglo xx principalmente en Nueva York, Buenos Aires o Chicago.
+                    </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Puedo comprar en otras monedas crypto?
-                </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                <div class="accordion-body">
-                    Los antecedentes de la pizza se encuentran en el empleo del pan de trigo en las antiguas culturas de Egipto, Persia, Grecia y Roma. En la época de Darío I el Grande (521-500 a. C.), los soldados persas comían un pan plano con queso fundido y dátiles en la parte superior.En la Antigua Roma, los soldados consumían un pan plano con aceite de oliva y hierbas, similar a la focaccia.Panes planos con agregados similares se encuentran en diversas culturas del Mediterráneo.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Puedo comprar en otras monedas crypto?
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Los antecedentes de la pizza se encuentran en el empleo del pan de trigo en las antiguas culturas de Egipto, Persia, Grecia y Roma. En la época de Darío I el Grande (521-500 a. C.), los soldados persas comían un pan plano con queso fundido y dátiles en la parte superior.En la Antigua Roma, los soldados consumían un pan plano con aceite de oliva y hierbas, similar a la focaccia.Panes planos con agregados similares se encuentran en diversas culturas del Mediterráneo.
+                    </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Como entro en una AUCTION?
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        El asado, barbacoa, parrilla o parrillada es una técnica de cocción mediante la cual, los alimentos (generalmente cortes de carne) son expuestos al calor de fuego o brasas para que se cocinen lentamente. El calor se transmite gradualmente al alimento, que por lo general está suspendido sobre el fuego o cerca de las brasas. El fuego se logra a partir de carbón vegetal o de madera, aunque hay también parrillas de gas. Las maderas más usadas son maderas duras como las de roble, mezquite, quebracho o coronilla, guindo, que arden a temperaturas altas y por un tiempo prolongado. Si bien la carne más empleada es la carne vacuna, también se asa carne de cerdo, de cordero, cabrito, pescado, pollo, langostinos y diversos embutidos.
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayO?pen-collapseThree">
-                Como entro en una AUCTION?
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                <div class="accordion-body">
-                    El asado, barbacoa, parrilla o parrillada es una técnica de cocción mediante la cual, los alimentos (generalmente cortes de carne) son expuestos al calor de fuego o brasas para que se cocinen lentamente. El calor se transmite gradualmente al alimento, que por lo general está suspendido sobre el fuego o cerca de las brasas. El fuego se logra a partir de carbón vegetal o de madera, aunque hay también parrillas de gas. Las maderas más usadas son maderas duras como las de roble, mezquite, quebracho o coronilla, guindo, que arden a temperaturas altas y por un tiempo prolongado. Si bien la carne más empleada es la carne vacuna, también se asa carne de cerdo, de cordero, cabrito, pescado, pollo, langostinos y diversos embutidos.
-                </div>
-            </div>
             </div>
         </div>
-    </div>
     </section>
 
     <div class="faq-subtitle container-md">
-        <p>The<br>イトト<br>NTF's</p>
+        <p>The<br><span class="span1">イトト</span><br>NTF's</p>
     </div>
 
     <footer class="bg text-center text-white">
