@@ -124,7 +124,7 @@ nav ul li {
 .collection-title {
   color: #fff;
   text-align: center;
-  margin: 150px; }
+  margin: 150px 0 150px 0; }
   .collection-title h1 {
     font-size: 3rem; }
 
@@ -351,3 +351,5 @@ footer {
   100% {
     transform: none;
     opacity: 1; } }
+
+/*#########################################################*/

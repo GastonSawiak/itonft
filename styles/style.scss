@@ -169,7 +169,7 @@ nav ul li{
 .collection-title {
     color: $base-white;
     text-align: center;
-    margin: 150px;
+    margin: 150px 0 150px 0;
 
     h1 {
         @include titlefontsize;
@@ -472,3 +472,5 @@ footer {
         opacity: 1;
     }
 }
+
+/*#########################################################*/
