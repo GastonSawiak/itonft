@@ -1,3 +1,3 @@
-DECIDI USAR UN NAVBAR HECHO EN HAMBURGUESA Y CON JS PORQUE ES LA IDEA DE LA PAGINA. PARA EL DESAFIO DE SASS PROMETO USAR EL DE BOOTSTRAP JAJA
+Pagina base dedicada al aprendizaje y compraventa de nfts. Basada en diseno sobre Bootstrap y SASS, pensada en una base mobile, factible tambien para PC.
 
 PAGINA: https://gastonsawiak.github.io/itonft/
