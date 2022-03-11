@@ -8,7 +8,7 @@ html {
   overflow-x: hidden; }
 
 body {
-  background: linear-gradient(#1b1b1b, #000000, #1b1b1b); }
+  background: url(/assets/img/imghome/background.jpg) repeat; }
 
 /*maps*/
 /*variables*/
@@ -97,6 +97,30 @@ nav ul li {
   .changer:hover:before {
     content: "JAPON"; }
 
+.buy-these {
+  text-align: center; }
+  .buy-these a {
+    text-decoration: none; }
+  .buy-these p {
+    font-size: 20px;
+    color: #fff;
+    transition: 300ms; }
+    .buy-these p:hover {
+      color: #8100d6; }
+
+.home-desc {
+  text-align: center; }
+  .home-desc p {
+    color: #fff;
+    font-size: 1.2rem; }
+
+.empezando {
+  text-align: center;
+  justify-content: center; }
+  .empezando .reso {
+    color: #fff;
+    margin: 70px 35px 35px 35px; }
+
 /*wallet icono*/
 .wallet-btn img {
   position: fixed;
@@ -116,6 +140,13 @@ nav ul li {
 /*Carousel*/
 #carousel {
   border-radius: 1px; }
+
+.collection-title h1 {
+  margin-bottom: 3rem; }
+
+.collection-title p {
+  font-size: 1.25rem;
+  color: #b61558; }
 
 .carousel-item {
   margin: 10px;
@@ -155,6 +186,10 @@ nav ul li {
   .btn-dark:hover {
     transform: scale(0.95); }
 
+.faqscollection {
+  color: #fff;
+  text-align: center; }
+
 /*#####################################################*/
 /*Learn*/
 .learn-title {
@@ -181,6 +216,17 @@ nav ul li {
   margin-bottom: 30px; }
   .learn-img1 img {
     width: 50%; }
+
+.learn-link a {
+  text-decoration: none;
+  color: #b61558; }
+
+.nftvideo {
+  justify-content: center;
+  text-align: center; }
+  .nftvideo iframe {
+    width: 80%;
+    height: 720px; }
 
 /*#####################################################*/
 /*FAQS*/
@@ -236,7 +282,8 @@ nav ul li {
     font-size: 3rem; }
 
 .form {
-  justify-content: center; }
+  justify-content: center;
+  padding: 20px; }
   .form .form-label1 {
     color: #8100d6;
     font-size: 30px;
@@ -244,11 +291,24 @@ nav ul li {
   .form .btnfaq button {
     width: 9rem;
     margin: 2rem; }
+  .form .formimg {
+    align-items: center;
+    text-align: center; }
+    .form .formimg img {
+      width: 80%;
+      padding: 0 10% 0 10%;
+      animation: glitch1 2s infinite; }
 
 /*##################################################*/
 /*Footer*/
 footer {
-  margin-top: 10%; }
+  margin-top: 5%; }
+  footer i {
+    color: #fff;
+    width: 1.5rem;
+    transition: 350ms; }
+    footer i:hover {
+      transform: translateY(-5px) scale(1.3); }
 
 /*##################################################*/
 /*keyframes*/

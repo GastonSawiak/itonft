@@ -8,7 +8,7 @@ html {
     overflow-x: hidden;
 }
 body {
-    background: linear-gradient(#1b1b1b,#000000, #1b1b1b);
+    background: url(/assets/img/imghome/background.jpg) repeat;
 }
 
 /*maps*/
@@ -148,6 +148,35 @@ nav ul li{
     }
 }
 
+.buy-these {
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-size: 20px;
+        color: $base-white;
+        transition: 300ms;
+        &:hover{
+            color: $neo-purple;
+        }
+    }
+}
+.home-desc {
+    text-align: center;
+    p {
+        color: $base-white;
+        font-size: 1.2rem;
+    }
+}
+.empezando {
+    text-align: center;
+    justify-content: center;
+    .reso {
+        color: $base-white;
+        margin: 70px 35px 35px 35px;
+    }
+}
 
 /*wallet icono*/
 .wallet-btn img{
@@ -173,6 +202,15 @@ nav ul li{
 /*Carousel*/
 #carousel {
     @include carousel (1px);
+}
+.collection-title {
+    h1 {
+        margin-bottom: 3rem;
+    }
+    p {
+        font-size: 1.25rem;
+        color: $neo-red;
+    }
 }
 .carousel-item {
     margin: 10px;
@@ -228,7 +266,10 @@ nav ul li{
     }
 }
 
-
+.faqscollection {
+    color: $base-white;
+    text-align: center;
+}
 /*#####################################################*/
 
 /*Learn*/
@@ -264,7 +305,21 @@ nav ul li{
     width: 50%;
     }
 }
+.learn-link {
 
+    a{
+    text-decoration: none;
+    color: $neo-red;
+    }
+}
+.nftvideo {
+    justify-content: center;
+    text-align: center;
+    iframe {
+        width: 80%;
+        height: 720px;
+    }
+}
 /*#####################################################*/
 
 /*FAQS*/
@@ -334,6 +389,7 @@ nav ul li{
 
 .form {
     justify-content: center;
+    padding: 20px;
 
     .form-label1 {
         color: $neo-purple;
@@ -345,6 +401,15 @@ nav ul li{
         width: 9rem;
         margin: 2rem;
     }
+    .formimg {
+        align-items: center;
+        text-align: center;
+        img {
+            width: 80%;
+            padding: 0 10% 0 10%;
+            animation: glitch1 2s infinite;
+        }
+    }
 }
 
 
@@ -354,7 +419,15 @@ nav ul li{
 /*Footer*/
 
 footer {
-    margin-top: 10%;
+    margin-top: 5%;
+    i {
+        color: $base-white;
+        width: 1.5rem;
+        transition: 350ms;
+        &:hover {
+            transform: translateY(-5px) scale(1.3);
+        }
+    }
 }
 
 /*##################################################*/
